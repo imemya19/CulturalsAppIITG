@@ -63,7 +63,9 @@ Widget textsection = Container(
   ),
 );
 
-Widget loadersection = Container(
+Widget loadersection = Container();
+
+Widget arrowsection = Container(
   padding: const EdgeInsets.all(3),
   color: Colors.lightGreen,
   child: Row(
@@ -73,8 +75,6 @@ Widget loadersection = Container(
     ],
   ),
 );
-
-Widget arrowsection = Container();
 
 class MyApp extends StatefulWidget {
   MyApp({Key key}) : super(key: key);
