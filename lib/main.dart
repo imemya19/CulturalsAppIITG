@@ -63,7 +63,19 @@ Widget textsection = Container(
   ),
 );
 
-Widget loadersection = Container();
+Widget loadersection = Container(
+  padding: const EdgeInsets.all(3),
+  color: Colors.lightBlueAccent,
+  child: Row(
+    mainAxisAlignment: MainAxisAlignment.center,
+    children: [
+      Image.asset('../assets/images/Rectangle380.png'),
+      Image.asset('../assets/images/Ellipse100.png'),
+      Image.asset('../assets/images/Ellipse100.png'),
+      Image.asset('../assets/images/Ellipse100.png'),
+    ],
+  ),
+);
 
 Widget arrowsection = Container(
   padding: const EdgeInsets.all(3),
@@ -88,6 +100,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Culturals IITG',
+      theme: ThemeData(fontFamily: 'Montserrat'),
       home: Scaffold(
         body: SafeArea(
           child: Column(
