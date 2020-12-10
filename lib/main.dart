@@ -5,8 +5,8 @@ void main() {
 }
 
 Widget topsection = Container(
-  padding: const EdgeInsets.all(50),
-  color: Colors.amber,
+  padding: const EdgeInsets.all(30.0),
+  // color: Colors.amber,
   child: Row(
     mainAxisAlignment: MainAxisAlignment.end,
     children: [
@@ -23,19 +23,21 @@ Widget topsection = Container(
 );
 
 Widget imagesection = Container(
-  padding: const EdgeInsets.all(5),
-  color: Colors.pink,
+  padding: const EdgeInsets.all(30.0),
+  // color: Colors.pink,
   child: Row(
     mainAxisAlignment: MainAxisAlignment.center,
     children: [
-      Image.asset('../assets/images/Group504.png'),
+      Image(
+        image: AssetImage('assets/images/Group504.png'),
+      ),
     ],
   ),
 );
 
 Widget textsection = Container(
   padding: const EdgeInsets.all(3),
-  color: Colors.yellow,
+  // color: Colors.yellow,
   child: Column(
     crossAxisAlignment: CrossAxisAlignment.start,
     children: [
@@ -44,7 +46,7 @@ Widget textsection = Container(
         style: TextStyle(
           color: Colors.black,
           fontFamily: "Montserrat",
-          fontWeight: FontWeight.w700,
+          fontWeight: FontWeight.w900,
           fontSize: 24,
         ),
       ),
@@ -64,26 +66,38 @@ Widget textsection = Container(
 );
 
 Widget loadersection = Container(
-  padding: const EdgeInsets.all(3),
-  color: Colors.lightBlueAccent,
+  padding: const EdgeInsets.all(10.0),
+  // color: Colors.lightBlueAccent,
   child: Row(
     mainAxisAlignment: MainAxisAlignment.center,
     children: [
-      Image.asset('../assets/images/Rectangle380.png'),
-      Image.asset('../assets/images/Ellipse100.png'),
-      Image.asset('../assets/images/Ellipse100.png'),
-      Image.asset('../assets/images/Ellipse100.png'),
+      Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Image.asset('assets/images/Rectangle380.png'),
+      ),
+      Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Image.asset('assets/images/Ellipse100.png'),
+      ),
+      Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Image.asset('assets/images/Ellipse100.png'),
+      ),
+      Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Image.asset('assets/images/Ellipse100.png'),
+      ),
     ],
   ),
 );
 
 Widget arrowsection = Container(
-  padding: const EdgeInsets.all(3),
-  color: Colors.lightGreen,
+  padding: const EdgeInsets.all(15.0),
+  // color: Colors.lightGreen,
   child: Row(
     mainAxisAlignment: MainAxisAlignment.center,
     children: [
-      Image.asset('../assets/images/Group613.png'),
+      Image.asset('assets/images/Group613.png'),
     ],
   ),
 );
