@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(MaterialApp(
+    home: MyApp(),
+  ));
 }
+
+// =============================
 
 Widget topsection = Container(
   padding: const EdgeInsets.all(30.0),
@@ -97,7 +101,9 @@ Widget arrowsection = Container(
   child: Row(
     mainAxisAlignment: MainAxisAlignment.center,
     children: [
-      Image.asset('assets/images/Group613.png'),
+      Image.asset(
+        'assets/images/Group613.png',
+      ),
     ],
   ),
 );
