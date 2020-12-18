@@ -31,7 +31,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Culturals IITG',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(fontFamily: 'Montserrat'),
+      theme:
+          ThemeData(primaryColor: Color(0xFFCC0200), fontFamily: 'Montserrat'),
       home: Scaffold(
         body: SafeArea(
           child: Column(
