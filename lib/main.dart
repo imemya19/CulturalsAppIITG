@@ -1,5 +1,6 @@
 import 'package:culturals_app_iitg/body.dart';
-import 'package:culturals_app_iitg/pages/login.dart';
+import 'package:culturals_app_iitg/pages/about.dart';
+// import 'package:culturals_app_iitg/pages/login.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -43,7 +44,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       initialRoute: '/',
       routes: {
-        '/second': (context) => LoginScreen(),
+        '/second': (context) => AboutPage(),
       },
       title: 'Culturals IITG',
       debugShowCheckedModeBanner: false,

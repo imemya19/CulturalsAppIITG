@@ -45,19 +45,19 @@ Widget loadersection = Container(
     children: [
       Padding(
         padding: const EdgeInsets.all(8.0),
-        child: Image.asset('assets/images/Rectangle380.png'),
+        child: SvgPicture.asset('assets/images/Rectangle380.svg'),
       ),
       Padding(
         padding: const EdgeInsets.all(8.0),
-        child: Image.asset('assets/images/Ellipse100.png'),
+        child: SvgPicture.asset('assets/images/Ellipse100.svg'),
       ),
       Padding(
         padding: const EdgeInsets.all(8.0),
-        child: Image.asset('assets/images/Ellipse100.png'),
+        child: SvgPicture.asset('assets/images/Ellipse100.svg'),
       ),
       Padding(
         padding: const EdgeInsets.all(8.0),
-        child: Image.asset('assets/images/Ellipse100.png'),
+        child: SvgPicture.asset('assets/images/Ellipse100.svg'),
       ),
     ],
   ),
@@ -71,16 +71,7 @@ Widget arrowsection = Container(
     children: [
       GestureDetector(
         onTap: () => print('tappedddd'),
-        child: Container(
-          width: 50,
-          height: 50,
-          decoration: BoxDecoration(
-            image: DecorationImage(
-              image: AssetImage('assets/images/Group613.png'),
-              fit: BoxFit.cover,
-            ),
-          ),
-        ),
+        child: SvgPicture.asset('assets/images/loader1.svg'),
       ),
     ],
   ),
