@@ -31,7 +31,7 @@ Widget navBar = Container(
 
 Widget mainBody = Container(
   padding: const EdgeInsets.all(20.0),
-  color: Color(0xFFE5E5E5),
+  color: Color(0xFFE5E5E5).withOpacity(0.3),
   child: SingleChildScrollView(
     child: Column(
       children: [
@@ -153,7 +153,7 @@ Widget bottomBar = Container(
           backgroundColor: Color(0xFFCC0200),
           onPressed: () {},
           child: Icon(Icons.add),
-          elevation: 9.0,
+          elevation: 10.0,
         ),
       ),
     ],

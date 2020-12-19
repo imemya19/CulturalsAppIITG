@@ -13,12 +13,15 @@ Widget topsection = Container(
   child: Row(
     mainAxisAlignment: MainAxisAlignment.end,
     children: [
-      Text(
-        "Skip",
-        style: TextStyle(
-          fontFamily: "Montserrat",
-          fontWeight: FontWeight.w600,
-          color: Color(0xFFB9B9B9),
+      GestureDetector(
+        onTap: () => print('skip is tapped->go directly to login page'),
+        child: Text(
+          "Skip",
+          style: TextStyle(
+            fontFamily: "Montserrat",
+            fontWeight: FontWeight.w600,
+            color: Color(0xFFB9B9B9),
+          ),
         ),
       ),
     ],

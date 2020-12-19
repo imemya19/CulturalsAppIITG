@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1031442136369",
+    "project_id": "culturalsappiitg",
+    "storage_bucket": "culturalsappiitg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031442136369:android:36efc912592cd685f40410",
+        "android_client_info": {
+          "package_name": "com.somya.culturalsappiitg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031442136369-j463ec3qnm2vnqf37jgqbbcd71j4rqkr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.somya.culturalsappiitg",
+            "certificate_hash": "87a7f01167915bfb6569fbb93e18471dbb46cf89"
+          }
+        },
+        {
+          "client_id": "1031442136369-t6mlnvdei9gp2pbr6dlamjrr1u1gsa69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARTTRBL8Hdpmi8_UDmMiaNgk75kcb4Cm0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031442136369-t6mlnvdei9gp2pbr6dlamjrr1u1gsa69.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

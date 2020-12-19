@@ -1,16 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 Widget imagesection = Container(
   padding: const EdgeInsets.all(30.0),
   // color: Colors.pink,
-  child: Row(
-    mainAxisAlignment: MainAxisAlignment.center,
-    children: [
-      Image(
-        image: AssetImage('assets/images/Group504.png'),
-      ),
-    ],
-  ),
+  child: SvgPicture.asset('assets/images/Group504.svg'),
 );
 
 Widget textsection = Container(
@@ -71,7 +65,7 @@ Widget loadersection = Container(
 
 Widget arrowsection = Container(
   padding: const EdgeInsets.all(25.0),
-  color: Colors.lightGreen,
+  // color: Colors.lightGreen,
   child: Row(
     mainAxisAlignment: MainAxisAlignment.center,
     children: [
